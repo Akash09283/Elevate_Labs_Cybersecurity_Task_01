@@ -5,12 +5,10 @@
 ## What I Did  
 1. I scanned my local network (`192.168.x.0/24`) using Nmap's TCP SYN scan (`-sS`) to find open ports.  
 2. I analyzed the results to identify devices like the router, laptops, and IoT devices along with their exposed services.  
-3. I researched common vulnerabilities linked to open ports, such as SSH brute-forcing and HTTP data leaks.  
-4. (Optional) I captured network traffic during the scan with Wireshark to see how Nmap interacts with target ports.  
+3. I researched common vulnerabilities linked to open ports, such as SSH brute-forcing and HTTP data leaks. 
 
 ## Tools Used  
 - **Nmap**: For port scanning (`nmap -sS [IP]`).  
-- **Wireshark**: To check scan traffic (optional).  
 - **Command Line**: To find my local IP range (`ipconfig`/`ifconfig`).  
 
 ## What I Learned  
@@ -33,5 +31,4 @@
 ---
 
 **Repo Contents**:  
-- `scan_results.txt`: Nmap output.  
-- `screenshots/`: Wireshark/Nmap visuals (if taken).  
+- `scan_results.txt`: Nmap output. 
